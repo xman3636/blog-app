@@ -16,3 +16,4 @@ class Post(models.Model): # models.Model means post is a django model, so django
 
     def __str__(self):
         return self.title
+    
